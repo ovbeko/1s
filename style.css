@@ -48,6 +48,9 @@
 .cp-1 {
 	padding: 2vh;
 }
+.nowrap {
+	white-space: nowrap;
+}
 .header {
 	width: 100%;
 	height: 8vh;
@@ -107,6 +110,25 @@
 }
 .cock {
 	padding-top: 1.5vh;
+	animation: 0.625s c1move ease-in-out;
+}
+@keyframes c1move {
+	0% {
+		opacity: 0;
+		margin-left: 1vh;
+	}
+}
+.cock2 {
+	animation: 0.75s c1move ease-in-out;
+}
+.cock3 {
+	animation: 0.875s c1move ease-in-out;
+}
+.cock4 {
+	animation: 1s c1move ease-in-out;
+}
+.cock5 {
+	animation: 1.125s c1move ease-in-out;
 }
 .cockt {
 	color: #007621;
@@ -123,4 +145,23 @@
 	height: 0.5vh;
 	border-radius: 1vh;
 	background: #007621;
+}
+.l1 {
+	animation: 0.75s line-move ease-in-out;
+}
+.l2 {
+	animation: 1s line-move ease-in-out;
+}
+.l3 {
+	animation: 1.25s line-move ease-in-out;
+}
+@keyframes line-move {
+	0% {
+		width: 0vw;
+		opacity: 0;
+	}
+}
+.bttn {
+	background: white;
+	border: 0.25vh solid black;
 }
